@@ -143,7 +143,7 @@ Let's say we want to read some data from a csv with pandas. The first example is
 | tr_1.png      | 0      |   FALSE |
 | tr_1.png      | 4      |    FALSE |
 
-If we want to build a custom dataset that reads image locations form this csv file then we can do something like following.
+If we want to build a custom dataset that reads image locations from this csv file then we can do something like following.
 
 ```python
 class CustomDatasetFromImages(Dataset):
